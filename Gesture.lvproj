@@ -19,19 +19,14 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="AVI" Type="Folder"/>
-		<Item Name="Docs" Type="Folder" URL="../Docs">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
-		<Item Name="Images" Type="Folder" URL="../Images">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
+		<Item Name="Docs" Type="Folder"/>
+		<Item Name="Images" Type="Folder"/>
 		<Item Name="Modules" Type="Folder">
 			<Item Name="Acquire to AVI.lvlib" Type="Library" URL="../Libraries/Acquire to AVI/Acquire to AVI.lvlib"/>
 		</Item>
 		<Item Name="subVIs" Type="Folder">
 			<Item Name="Acquire AVI.vi" Type="VI" URL="../Source/Acquire AVI.vi"/>
 			<Item Name="AVI to Images.vi" Type="VI" URL="../Source/AVI to Images.vi"/>
-			<Item Name="image slider.vi" Type="VI" URL="../Source/image slider.vi"/>
 			<Item Name="Save ROI.vi" Type="VI" URL="../Source/Save ROI.vi"/>
 			<Item Name="Tests.vi" Type="VI" URL="../Source/Tests.vi"/>
 			<Item Name="Tests1.vi" Type="VI" URL="../Source/Tests1.vi"/>
@@ -113,7 +108,6 @@
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
-				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
 				<Item Name="Not A Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Not A Rendezvous.vi"/>
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
@@ -152,6 +146,7 @@
 				<Item Name="Wait at Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Wait at Rendezvous.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="IMAQ Extract 2" Type="VI" URL="../../../../&lt;vilib&gt;/vision/Image Manipulation.llb/IMAQ Extract 2"/>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>

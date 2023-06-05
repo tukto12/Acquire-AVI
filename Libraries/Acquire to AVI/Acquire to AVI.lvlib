@@ -2,7 +2,6 @@
 <Library LVVersion="22308000">
 	<Property Name="NI.Lib.Description" Type="Str">Module to acquire AVI from camera. </Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">)D#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)P!!!*Q(C=\&gt;&lt;&lt;&lt;&gt;N!%)8BIS!0?65(A6IY,;A#!WJB7N!L(R6X-%!K9!NK93I)I"&lt;5QO&lt;H=C0!BC]"9A=*9&amp;)D3W?8OR_PMN38,^*HN&gt;=7P&lt;D=WNN;L6&gt;\ILXVV^+JL&lt;U@&lt;^`U=LN_I`XZ_:`V`^(O@SQ@SX_`4+`?"/^_(WT7O\;VIJ)+SOP&gt;8/2&amp;8O2&amp;8O2&amp;HO2*HO2*HO2*(O2"(O2"(O2"&lt;H+4G^TE*P?P"Q_ZS%5O^Y&gt;*-8ER54&amp;I-5$2'9K+N]*4?!J0Y?'L#E`B+4S&amp;J`$1297H]"3?QF.YW%S&amp;J`!5HM*4?"CK3[KPZ(A+$]-L]33?R*.Y%A^4+P%EA'3S:/"E%"B+'J-0C3@R*"Y_+P%EHM34?")0T5I]C3@R**\%QS&lt;^K'48,#MZ(I:2Y!E]A3@Q""['6O!*0)%H]!1?JF0A#4Q")JAQ'"S#AIW#$M'8Q".Y_+0!%XA#4_!*0$4V-R4^S#S;:38(9TT'9TT'9TQ-)?-R(O-R(O.B7"G0]2C0]2A05]FYD-&gt;Y$-2-SP1SAZE.43=4'!_P@L7YH[8M%P&gt;6Y[?I8[A;&amp;[$'B;6RQ7B=#"IH7/0%;:Q1D1/N=1!V$IT'$GPMC!:19W+.!45[[ML\B4J4-X7CDN3"WF-\;LNM_M9&gt;L^?L,J?,TO?TZHH7[843]8D5Y8$1@L`8&lt;L@4&gt;LO^01;_MNY?#/NT;?,T^/X\:PJRNZFG[PZO`5\_&amp;X[@`Y&amp;HITY^_)_'9`14Q1AOXA!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">573603840</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
