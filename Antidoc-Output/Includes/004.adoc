@@ -1,0 +1,32 @@
+== Custom errors
+
+[TIP]
+====
+Custom errors are added via vi named `*--error.vi`.
+====
+
+.Custom errors
+[cols="<.<3d,<.<2d,<.<7d,<.<4d", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|Name |Code |Description |Owned by
+
+|Module Not Running
+|403681
+|%s Module is not running.
+|<<Acquire to AVI.lvlib>>
+
+|Module Not Stopped
+|403682
+|The Stop Module VI for the %s module timed out while waiting for the module main VI to stop. The module main VI may still be running.
+|<<Acquire to AVI.lvlib>>
+
+|Module Not Synced
+|403683
+|%s Module was unable to synchronize events.
+|<<Acquire to AVI.lvlib>>
+
+|Request and Wait for Reply Timeout
+|403686
+|%s
+|<<Acquire to AVI.lvlib>>
+|===

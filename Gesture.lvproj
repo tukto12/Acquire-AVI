@@ -1,5 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="22308000">
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.Project.Description" Type="Str">Main goal of this project is to create module that will record an AVI from user camera, which will help to collect a gesture dataset for machine learning. Project is based on DQMH module.</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -27,6 +29,7 @@
 		<Item Name="subVIs" Type="Folder">
 			<Item Name="Acquire AVI.vi" Type="VI" URL="../Source/Acquire AVI.vi"/>
 			<Item Name="AVI to Images.vi" Type="VI" URL="../Source/AVI to Images.vi"/>
+			<Item Name="save roi position.vi" Type="VI" URL="../Source/save roi position.vi"/>
 			<Item Name="Save ROI.vi" Type="VI" URL="../Source/Save ROI.vi"/>
 			<Item Name="Tests.vi" Type="VI" URL="../Source/Tests.vi"/>
 			<Item Name="Tests1.vi" Type="VI" URL="../Source/Tests1.vi"/>

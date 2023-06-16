@@ -1,0 +1,4 @@
+== Project description
+
++++Main goal of this project is to create module that will record an AVI from user camera, which will help to collect a gesture dataset for machine learning. Project is based on DQMH module.+++
+

@@ -1,0 +1,25 @@
+== Modules overview
+
+This project contains 1 singleton module and 0 cloneable module.
+
+.Modules list
+[cols="<.<1d,<.<1d", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|Singleton |Cloneable
+
+|<<Acquire to AVI.lvlib>>
+|
+|===
+
+This graph represents the links between all DQMH modules.
+
+[graphviz, format="png", align="center"]
+....
+digraph G912422 {
+rankdir=LR;
+edge[dir=both color=black  arrowhead=normal arrowtail=none style=filled penwidth=1]
+node[color=black shape=box]
+"Acquire to AVI"[color=black shape=component]
+"Acquire to AVI" -> "Acquire to AVI" [label="    " dir=both color=forestgreen  arrowhead=normal arrowtail=none style=filled penwidth=1];
+}
+....
